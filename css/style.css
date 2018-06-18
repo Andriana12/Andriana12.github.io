@@ -1,0 +1,114 @@
+/*    */
+
+.navbar {
+    background-color: #fff;
+}
+
+.nav-link {
+    font-size: 2vw;
+    color: black;
+    text-transform: uppercase;
+}
+
+/*    */
+.intro {
+    background-image: url(../img/fon1.png);
+}
+.intro-scene {
+    margin-top: -10vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro-scene {
+    background-color: #FFCBAA;    
+    position: relative;
+}
+.intro-alisa {
+    width: 30vw;
+    left: 5vw;
+    position: relative;
+    padding: 5vh 0;
+}
+.intro-alisa img {
+    
+}
+.intro-hello {
+    right: 20vh;
+    width: 45vw;
+    text-align: right;
+}
+.intro-hello p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-right: 4vw;
+} 
+.intro-hello img {
+}
+
+/*    */
+
+#s1 .ilu {
+    position: relative;
+}
+#s1 .ilu img {
+    width: 100%;
+}
+#s1 .ilu .text { 
+    position: absolute;
+    right: 1vw;
+    bottom:  1vw;
+}
+
+#s1 .duvo {
+    margin: 15px auto;
+}
+
+#s2 {
+    
+}
+
+/*    */
+#s3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.gal {
+    column-count: 3;
+    transition: all 1s ease;
+}
+
+/* sm */
+
+@media (max-width: 768px) {
+    .gal {
+        column-count: 2;
+    }
+}
+
+/* extra sm */
+
+@media (max-width: 576px) {
+    .gal {
+        column-count: 1;
+    }
+}
+
+.gal * {
+    outline: 0;
+}
+
+.gal img {
+    width: 100%;
+    padding: 0.5em 0;
+    transition: all 1s ease;
+}
+
+/*    */
+#s4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
